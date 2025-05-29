@@ -8,7 +8,7 @@ public class Complex
   {
     real = r;
     img = i;
-    diff = r - i;
+    diff = r - i + r - i;
   }
 
   int getReal()
