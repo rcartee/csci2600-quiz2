@@ -10,7 +10,7 @@ public class Complex
     real = r;
     img = i;
     diff = r - i;
-    undiff = -diff;
+    undiff = -diff + 2;
   }
 
   int getReal()
