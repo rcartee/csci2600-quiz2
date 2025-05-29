@@ -2,11 +2,13 @@ public class Complex
 {
   private int real;
   private int img;
+  private int diff;
 
   public Complex(int r, int i)
   {
     real = r;
     img = i;
+    diff = r - i;
   }
 
   int getReal()
@@ -18,4 +20,10 @@ public class Complex
   {
     return img;
   }
+  
+  int getDiff()
+  {
+	  return diff;
+  }
+  
 }
